@@ -43,10 +43,10 @@ This dataset includes 755 image that were gathered from a total of 541 patients.
 
 ### 3.     Data Merging
 The datasets were each organized in a different way so they were both reorganized and merged creating a bigger data sets containing:
-1.     Image name
-2.     Image path
-3.     Lesion Type
-4.     Source (Original dataset)
+1. Image name
+2. Image path
+3. Lesion Type
+4. Source (Original dataset)
 After merging, the data were checked for duplicates through **Hashing algorihtm** and **Hamming distance** which helped in identifying and removing around 70 image duplications. 
 AS a result, the final dataset included **1455** images.
 
