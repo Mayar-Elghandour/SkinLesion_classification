@@ -2,9 +2,9 @@
 ## Table of Contents
 1. [Introduction](#intro)
 2. [Dataset](#dataset)
-     1. [Data source](#source)
-     2. [Data structure](#structure)
-     3. [Data proportions](#ratio)
+     1. [MSID](#source)
+     2. [MSLDv2](#structure)
+     3. [Merging](#ratio)
 3. [Preprocessing and Augmentation](#imp)
      1. [Preprocessing](#dataperp)
      2. [Augmentation](#class)   
@@ -41,6 +41,7 @@ This dataset includes 755 image that were gathered from a total of 541 patients.
 | HFMD | 161 |
 | Normal | 114 |
 
+### 3.     Data Merging
 The datasets were each organized in a different way so they were both reorganized and merged creating a bigger data sets containing:
 1.     Image name
 2.     Image path
