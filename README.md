@@ -25,11 +25,13 @@ This project focuses on the classification of multiple cases of skin lesions fro
 The used data is a combination of 2 datasets which each represent a couple of different skin diseases images, they are:
 ### 1.     [Monkeypox Skin Images Dataset (MSID)](https://www.kaggle.com/datasets/dipuiucse/monkeypoxskinimagedataset)
 The data consists of 770 images divided on 4 disease classes:
+
+| Disease | N. of images |
 | :---: | :---: |
-| MonkeyPox | 279 |
-|ChickenPox|107|
-|Measles|91|
-|Normal|293|
+| 'MonkeyPox' | 279 |
+| 'ChickenPox' | 107 |
+| 'Measles' | 91 |
+| 'Normal' | 293 |
 
 
      
