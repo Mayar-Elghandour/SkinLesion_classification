@@ -50,6 +50,7 @@ The datasets were each organized in a different way so they were both reorganize
 
 After merging, the data were checked for duplicates through **Hashing algorihtm** and **Hamming distance** which helped in identifying and removing around 70 image duplications. 
 AS a result, the final dataset included **1455** images.
+> To access the merging and removing duolicates and similartities code click [here](merging.ipynb) 
 
 ## Preprocessing and Augmentation 
 
