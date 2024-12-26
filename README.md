@@ -12,7 +12,6 @@
 5. [Feature Selection](#instruction)
 6. [Models](#ref)
 
-
 <a name="intro"></a>
 ## Introduction
 This project focuses on the classification of multiple cases of skin lesions from images through Machine learning algorithm, using model such as XGBoost where this dataset is mostly have been classified using Deep Learning model or Feature extraction with deep learning then classified with machine learning model
@@ -50,9 +49,15 @@ The datasets were each organized in a different way so they were both reorganize
 
 After merging, the data were checked for duplicates through **Hashing algorihtm** and **Hamming distance** which helped in identifying and removing around 70 image duplications. 
 AS a result, the final dataset included **1455** images.
-> To access the merging and removing duolicates and similartities code click [here](merging.ipynb) 
+> To access the merging and removing duolicates and similartities code click [here](https://github.com/Mayar-Elghandour/SkinLesion_classification/blob/main/merging.ipynb)
 
 ## Preprocessing and Augmentation 
+### Preprocessing
+The images were then preprocessed to get better results through:
+1. Resizing and Normalization
+2. Applying CLAHE (Contrast Limited Adaptive Histogram Equalization)
+
+
 
 
      
